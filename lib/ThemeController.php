@@ -82,6 +82,8 @@ class ThemeController {
             'DynamicUpdate'          => new DynamicUpdate(),
             'WaveMotifs'             => new WaveMotifs(),
             'PreviewController'      => new PreviewController(),
+            'TinyMCEController'      => new TinyMCEController(),
+            'Graphql'                => new GraphqlFilters(),
         ];
 
         array_walk( $this->classes, function ( $instance ) {

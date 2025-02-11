@@ -643,7 +643,7 @@ msgstr ""
 #: lib/PostType/Settings.php:58
 msgctxt "theme CPT slugs"
 msgid "settings"
-msgstr "settings"
+msgstr "asetukset"
 
 #: lib/PostType/Settings.php:61
 msgctxt "theme CPT"
