@@ -1,0 +1,27 @@
+{
+    "name": "devgeniem/hkih-theme",
+    "type": "wordpress-theme",
+    "license": "MIT",
+    "description": "HKIH Theme",
+    "homepage": "http://geniem.com",
+    "authors": [
+        {
+            "name": "Ville Viklund",
+            "email": "ville.viklund@geniem.com",
+            "homepage": "https://github.com/ville6000"
+        }
+    ],
+    "minimum-stability": "stable",
+    "keywords": [
+        "wordpress", "wp", "theme"
+    ],
+    "require": {
+        "php": ">=7.4",
+        "composer/installers": ">=v1.7.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
