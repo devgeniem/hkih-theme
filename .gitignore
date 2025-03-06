@@ -1,2 +1,6 @@
 node_modules
 assets/dist
+
+# Do not track lock files
+composer.lock
+package-lock.json
